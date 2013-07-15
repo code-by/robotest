@@ -14,16 +14,17 @@ public class Robotest extends Sprite {
     public function Robotest() {
 
         var context:Context = new Context();
-        context.install(MVCSBundle).install(MainContextBundle).configure(MainConfig).configure(new ContextView(this)).initialize();
+        context.install(MVCSBundle).install(MainContextBundle).configure(MainConfig).configure(CommandsConfig).configure(new ContextView(this)).initialize();
         context.injector.injectInto(this);
 
         trace('hello');
 
-        var s:Sprite=new SimpleClass();
+        var s:Sprite=new SimpleView();
         addChild(s);
 
         var textField:TextField = new TextField();
         textField.text = "Hello, World";
+        textField.height = 20;
         addChild(textField);
 
     }

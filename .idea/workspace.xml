@@ -4,11 +4,16 @@
     <list default="true" id="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" name="Default" comment="" />
     <ignored path="robotest.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.js2" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373875666503" ignored="false" />
-    <file path="/Robotest.as" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373877443245" ignored="false" />
-    <file path="/MainConfig.as" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373872804864" ignored="false" />
-    <file path="/SimpleCommand.as" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373875372208" ignored="false" />
-    <file path="/SimpleClass.as" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373880498855" ignored="false" />
+    <file path="/fragment.js2" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373912567771" ignored="false" />
+    <file path="/Robotest.as" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373918784376" ignored="false" />
+    <file path="/MainConfig.as" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373914171194" ignored="false" />
+    <file path="/SimpleCommand.as" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373912526677" ignored="false" />
+    <file path="/SimpleClass.as" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373918897748" ignored="false" />
+    <file path="/SimpleMediator.as" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373918530234" ignored="false" />
+    <file path="/SimpleEvent.as" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373916613287" ignored="false" />
+    <file path="/CommandsConfig.as" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373913477640" ignored="false" />
+    <file path="/SimpleView.as" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373918244619" ignored="false" />
+    <file path="/MainContextBundle.as" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373918606923" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +74,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Robotest.as" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Robotest.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Robotest.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="38" selection-start="583" selection-end="583" vertical-scroll-proportion="0.525687">
+            <state line="26" column="30" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#11#45#0" expanded="true" />
               </folding>
@@ -80,11 +85,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleClass.as" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SimpleClass.as">
+      <file leaf-file-name="SimpleMediator.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SimpleMediator.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="35" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
+            <state line="14" column="48" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleView.as" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/SimpleView.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="14" selection-start="557" selection-end="557" vertical-scroll-proportion="0.38522953">
+              <folding>
+                <element signature="e#162#190#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,8 +108,30 @@
       <file leaf-file-name="SimpleCommand.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SimpleCommand.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+            <state line="13" column="40" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandsConfig.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CommandsConfig.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="4" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#162#196#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleEvent.as" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SimpleEvent.as">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,8 +139,10 @@
       <file leaf-file-name="MainConfig.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainConfig.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="10" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="25" column="63" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#162#221#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,7 +150,7 @@
       <file leaf-file-name="MainContextBundle.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainContextBundle.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="5" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -126,11 +166,15 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/src/SimpleClass.as" />
+        <option value="$PROJECT_DIR$/src/SimpleCommand.as" />
+        <option value="$PROJECT_DIR$/src/CommandsConfig.as" />
         <option value="$PROJECT_DIR$/src/MainConfig.as" />
         <option value="$PROJECT_DIR$/src/MainContextBundle.as" />
-        <option value="$PROJECT_DIR$/src/SimpleCommand.as" />
+        <option value="$PROJECT_DIR$/src/SimpleMediator.as" />
+        <option value="$PROJECT_DIR$/src/SimpleEvent.as" />
         <option value="$PROJECT_DIR$/src/Robotest.as" />
-        <option value="$PROJECT_DIR$/src/SimpleClass.as" />
+        <option value="$PROJECT_DIR$/src/SimpleView.as" />
       </list>
     </option>
   </component>
@@ -431,14 +475,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1920" height="1035" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39840183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39840183" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -525,39 +569,68 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MainContextBundle.as">
+    <entry file="file://$PROJECT_DIR$/src/SimpleMediator.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="5" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainConfig.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="10" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+        <state line="14" column="48" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SimpleCommand.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="254" selection-end="254" vertical-scroll-proportion="0.0">
+        <state line="13" column="40" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SimpleClass.as">
+    <entry file="file://$PROJECT_DIR$/src/MainContextBundle.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="35" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
+        <state line="11" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainConfig.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="63" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#162#221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CommandsConfig.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="4" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#162#196#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Robotest.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="38" selection-start="583" selection-end="583" vertical-scroll-proportion="0.525687">
+        <state line="26" column="30" selection-start="793" selection-end="793" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#11#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SimpleEvent.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SimpleView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="14" selection-start="557" selection-end="557" vertical-scroll-proportion="0.38522953">
+          <folding>
+            <element signature="e#162#190#0" expanded="true" />
           </folding>
         </state>
       </provider>

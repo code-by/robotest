@@ -13,8 +13,5 @@ public class MainContextBundle {
     public function extend(context:IContext):void {
     }
 
-    public function MainContextBundle() {
-    }
-
 }
 }

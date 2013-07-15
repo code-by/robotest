@@ -11,10 +11,9 @@ import robotlegs.bender.bundles.mvcs.Command;
 public class SimpleCommand extends Command {
 
     override public function execute():void {
-        super.execute();
+        trace('Simple command executed');
     }
 
-    public function SimpleCommand() {
-    }
+
 }
 }
