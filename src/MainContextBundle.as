@@ -7,6 +7,7 @@
  */
 package {
 import robotlegs.bender.framework.api.IContext;
+import robotlegs.bender.framework.api.IInjector;
 
 public class MainContextBundle {
 

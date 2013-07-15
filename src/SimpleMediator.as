@@ -12,12 +12,14 @@ import robotlegs.bender.bundles.mvcs.Mediator;
 
 public class SimpleMediator extends Mediator {
 
-    [Inject]
-    public var view:SimpleView;
-
     override public function initialize():void {
         trace('initialize mediator');
-        addViewListener(SimpleEvent.CLICK, dispatch);
+        addViewListener(SimpleEvent.CLICK, myClick, SimpleEvent);
+    }
+
+    private function myClick(event:SimpleEvent):void {
+        trace('myClick');
+        dispatch(event);
     }
 
 }

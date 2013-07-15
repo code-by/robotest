@@ -19,12 +19,12 @@ public class MainConfig implements IConfig {
     [Inject]
     public var mediatorMap:IMediatorMap;
 
-    [Inject]
-    public var contextView:ContextView;
-
     public function configure():void {
+
+        injector.map(SimpleModel).asSingleton();
+
+        trace('configure mediator');
         mediatorMap.map(SimpleView).toMediator(SimpleMediator);
-        contextView.view.addChild(new SimpleView());
     }
 
 }

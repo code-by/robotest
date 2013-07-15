@@ -9,14 +9,17 @@ package {
 import flash.display.SimpleButton;
 
 import robotlegs.bender.extensions.eventCommandMap.api.IEventCommandMap;
+import robotlegs.bender.framework.api.IConfig;
+import robotlegs.bender.framework.api.IInjector;
 
-public class CommandsConfig {
+public class CommandsConfig implements IConfig {
 
     [Inject]
     public var commandMap:IEventCommandMap;
 
     public function configure():void {
-        commandMap.map(SimpleEvent.CLICK).toCommand(SimpleCommand);
+        trace('configure command');
+        commandMap.map(SimpleEvent.CLICK, SimpleEvent).toCommand(SimpleCommand);
     }
 }
 }

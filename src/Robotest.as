@@ -11,11 +11,13 @@ import robotlegs.bender.framework.impl.Context;
 
 public class Robotest extends Sprite {
 
+    private var _context;
+
     public function Robotest() {
 
-        var context:Context = new Context();
-        context.install(MVCSBundle).install(MainContextBundle).configure(MainConfig).configure(CommandsConfig).configure(new ContextView(this)).initialize();
-        context.injector.injectInto(this);
+        _context = new Context();
+        _context.install(MVCSBundle).install(MainContextBundle).configure(MainConfig, CommandsConfig).configure(new ContextView(this)).initialize();
+        _context.injector.injectInto(this);
 
         trace('hello');
 

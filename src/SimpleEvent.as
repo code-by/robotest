@@ -12,12 +12,18 @@ public class SimpleEvent extends Event {
 
     public static const CLICK:String = "simple_click";
 
+    public var x:uint;
+    public var y:uint;
+
     public function SimpleEvent(type:String) {
         super(type);
     }
 
     override public function clone():Event {
-        return new SimpleEvent(type);
+        var simpleEvent = new SimpleEvent(type);
+        simpleEvent.x = x;
+        simpleEvent.y = y;
+        return simpleEvent;
     }
 }
 }

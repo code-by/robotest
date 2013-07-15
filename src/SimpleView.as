@@ -20,9 +20,15 @@ public class SimpleView extends Sprite {
         addEventListener(MouseEvent.CLICK, onClick);
     }
 
-    private function onClick(event:Event):void {
+    private function onClick(event:MouseEvent):void {
         trace('mouse click');
-        dispatchEvent(new SimpleEvent(SimpleEvent.CLICK));
+        var simpleEvent = new SimpleEvent(SimpleEvent.CLICK);
+        trace('click at x='+event.stageX);
+        trace('click at y='+event.stageY);
+
+        simpleEvent.x = event.stageX;
+        simpleEvent.y = event.stageY;
+        dispatchEvent(simpleEvent);
     }
 
 }
