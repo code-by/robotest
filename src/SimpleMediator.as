@@ -6,6 +6,8 @@
  * To change this template use File | Settings | File Templates.
  */
 package {
+import flash.events.Event;
+
 import robotlegs.bender.bundles.mvcs.Mediator;
 
 public class SimpleMediator extends Mediator {
@@ -17,5 +19,6 @@ public class SimpleMediator extends Mediator {
         trace('initialize mediator');
         addViewListener(SimpleEvent.CLICK, dispatch);
     }
+
 }
 }

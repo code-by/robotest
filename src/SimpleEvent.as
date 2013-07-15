@@ -10,11 +10,14 @@ import flash.events.Event;
 
 public class SimpleEvent extends Event {
 
-    public static const CLICK:String = "click";
+    public static const CLICK:String = "simple_click";
 
     public function SimpleEvent(type:String) {
         super(type);
     }
 
+    override public function clone():Event {
+        return new SimpleEvent(type);
+    }
 }
 }

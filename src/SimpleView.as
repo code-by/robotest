@@ -14,19 +14,15 @@ import flash.events.MouseEvent;
 
 public class SimpleView extends Sprite {
 
-    [Inject]
-    var eventDispatcher:IEventDispatcher;
-
     public function SimpleView() {
         graphics.beginFill(0xFF0000, 1);
         graphics.drawRect(0, 0, 100, 100);
         addEventListener(MouseEvent.CLICK, onClick);
-
     }
 
     private function onClick(event:Event):void {
         trace('mouse click');
-        eventDispatcher.dispatchEvent(new SimpleEvent(SimpleEvent.CLICK));
+        dispatchEvent(new SimpleEvent(SimpleEvent.CLICK));
     }
 
 }
