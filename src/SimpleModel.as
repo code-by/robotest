@@ -22,6 +22,8 @@ public class SimpleModel extends EventDispatcher {
         _x = value;
         trace('model new x:'+value);
         var simpleEvent = new SimpleEvent(SimpleEvent.MOVING);
+        simpleEvent.y = y;
+        simpleEvent.x = x;
         dispatchEvent(simpleEvent);
     }
 
@@ -33,6 +35,8 @@ public class SimpleModel extends EventDispatcher {
         _y = value;
         trace('model new y:'+value);
         var simpleEvent = new SimpleEvent(SimpleEvent.MOVING);
+        simpleEvent.y = y;
+        simpleEvent.x = x;
         dispatchEvent(simpleEvent);
     }
 

@@ -44,6 +44,10 @@ public class SimpleView extends Sprite {
 
     private function onMoving(event:SimpleEvent):void {
         trace('view moving event');
+        trace(event.x);
+        trace(event.y);
+        x = event.x;
+        y = event.y;
     }
 
 }
