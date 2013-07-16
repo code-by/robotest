@@ -18,8 +18,9 @@ public class CommandsConfig implements IConfig {
     public var commandMap:IEventCommandMap;
 
     public function configure():void {
-        trace('configure command');
+        trace('configure commands');
         commandMap.map(SimpleEvent.CLICK, SimpleEvent).toCommand(SimpleCommand);
+        commandMap.map(SimpleEvent.MOVING, SimpleEvent).toCommand(SimpleCommand);
     }
 }
 }

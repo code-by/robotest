@@ -14,6 +14,8 @@ import flash.events.MouseEvent;
 
 public class SimpleView extends Sprite {
 
+    private var _model:SimpleModel;
+
     public function SimpleView() {
         graphics.beginFill(0xFF0000, 1);
         graphics.drawRect(0, 0, 100, 100);
@@ -29,6 +31,19 @@ public class SimpleView extends Sprite {
         simpleEvent.x = event.stageX;
         simpleEvent.y = event.stageY;
         dispatchEvent(simpleEvent);
+    }
+
+    public function get model():SimpleModel {
+        return _model;
+    }
+
+    public function set model(value:SimpleModel):void {
+        _model = value;
+        model.addEventListener(SimpleEvent.MOVING, onMoving);
+    }
+
+    private function onMoving(event:SimpleEvent):void {
+        trace('view moving event');
     }
 
 }

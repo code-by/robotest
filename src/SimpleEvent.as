@@ -11,6 +11,7 @@ import flash.events.Event;
 public class SimpleEvent extends Event {
 
     public static const CLICK:String = "simple_click";
+    public static const MOVING:String = "simple_moving";
 
     public var x:uint;
     public var y:uint;

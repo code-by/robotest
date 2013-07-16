@@ -6,13 +6,13 @@
  * To change this template use File | Settings | File Templates.
  */
 package {
-public class SimpleModel {
+import flash.events.EventDispatcher;
+import flash.events.IEventDispatcher;
+
+public class SimpleModel extends EventDispatcher {
 
     private var _x:uint;
     private var _y:uint;
-
-    public function SimpleModel() {
-    }
 
     public function get x():uint {
         return _x;
@@ -21,6 +21,8 @@ public class SimpleModel {
     public function set x(value:uint):void {
         _x = value;
         trace('model new x:'+value);
+        var simpleEvent = new SimpleEvent(SimpleEvent.MOVING);
+        dispatchEvent(simpleEvent);
     }
 
     public function get y():uint {
@@ -30,6 +32,9 @@ public class SimpleModel {
     public function set y(value:uint):void {
         _y = value;
         trace('model new y:'+value);
+        var simpleEvent = new SimpleEvent(SimpleEvent.MOVING);
+        dispatchEvent(simpleEvent);
     }
+
 }
 }

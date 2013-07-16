@@ -25,6 +25,8 @@ public class MainConfig implements IConfig {
 
         trace('configure mediator');
         mediatorMap.map(SimpleView).toMediator(SimpleMediator);
+        mediatorMap.map(SimpleModel).toMediator(SimpleMediator);
+
     }
 
 }
