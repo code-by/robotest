@@ -13,8 +13,8 @@ public class SimpleEvent extends Event {
     public static const CLICK:String = "simple_click";
     public static const MOVING:String = "simple_moving";
 
-    public var x:uint;
-    public var y:uint;
+    public var x:int;
+    public var y:int;
 
     public function SimpleEvent(type:String) {
         super(type);

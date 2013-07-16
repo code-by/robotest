@@ -6,11 +6,17 @@
  * To change this template use File | Settings | File Templates.
  */
 package {
+import com.greensock.TweenLite;
+
 import flash.display.Sprite;
 import flash.events.Event;
 import flash.events.EventDispatcher;
 import flash.events.IEventDispatcher;
 import flash.events.MouseEvent;
+
+import com.greensock.*;
+import com.greensock.easing.*;
+
 
 public class SimpleView extends Sprite {
 
@@ -46,8 +52,9 @@ public class SimpleView extends Sprite {
         trace('view moving event');
         trace(event.x);
         trace(event.y);
-        x = event.x;
-        y = event.y;
+        x = event.x-50;
+        y = event.y-50;
+        TweenMax.to(this, 2, {x:x, y:y});
     }
 
 }

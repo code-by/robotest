@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" name="Default" comment="" />
+    <list default="true" id="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libraries/greensock.swc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SimpleEvent.as" afterPath="$PROJECT_DIR$/src/SimpleEvent.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SimpleModel.as" afterPath="$PROJECT_DIR$/src/SimpleModel.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SimpleView.as" afterPath="$PROJECT_DIR$/src/SimpleView.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="robotest.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.js2" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373964382061" ignored="false" />
@@ -12,9 +19,10 @@
     <file path="/SimpleMediator.as" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373968448224" ignored="false" />
     <file path="/SimpleEvent.as" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373927633258" ignored="false" />
     <file path="/CommandsConfig.as" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373964467522" ignored="false" />
-    <file path="/SimpleView.as" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373970431362" ignored="false" />
+    <file path="/SimpleView.as" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373981184883" ignored="false" />
     <file path="/MainContextBundle.as" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373925610696" ignored="false" />
     <file path="/SimpleModel.as" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373970708617" ignored="false" />
+    <file path="/Dummy.txt" changelist="7ee5335c-4730-452f-ba0e-6ee5a5fcce26" time="1373980794199" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,9 +108,9 @@
       <file leaf-file-name="SimpleView.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SimpleView.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="21" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0">
+            <state line="54" column="22" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#162#190#0" expanded="true" />
+                <element signature="e#162#193#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -128,10 +136,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleModel.as" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SimpleModel.as" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SimpleModel.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="8" selection-start="574" selection-end="574" vertical-scroll-proportion="0.42532006">
+            <state line="13" column="19" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#161#197#0" expanded="true" />
@@ -140,10 +148,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SimpleEvent.as" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="SimpleEvent.as" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/SimpleEvent.as">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="13" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
+            <state line="19" column="25" selection-start="457" selection-end="457" vertical-scroll-proportion="0.47990814">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -180,6 +188,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -187,12 +203,12 @@
         <option value="$PROJECT_DIR$/src/MainContextBundle.as" />
         <option value="$PROJECT_DIR$/src/SimpleCommand.as" />
         <option value="$PROJECT_DIR$/src/MainConfig.as" />
-        <option value="$PROJECT_DIR$/src/SimpleEvent.as" />
         <option value="$PROJECT_DIR$/src/CommandsConfig.as" />
         <option value="$PROJECT_DIR$/src/Robotest.as" />
         <option value="$PROJECT_DIR$/src/SimpleMediator.as" />
         <option value="$PROJECT_DIR$/src/SimpleView.as" />
         <option value="$PROJECT_DIR$/src/SimpleModel.as" />
+        <option value="$PROJECT_DIR$/src/SimpleEvent.as" />
       </list>
     </option>
   </component>
@@ -501,7 +517,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18729097" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3846154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -514,7 +530,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11846318" sideWeight="0.81270903" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11846318" sideWeight="0.61538464" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -624,6 +640,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/SimpleCommand.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="8" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SimpleModel.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="19" selection-start="308" selection-end="308" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#161#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SimpleView.as">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="22" selection-start="1413" selection-end="1413" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#162#193#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/SimpleMediator.as">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="47" selection-start="465" selection-end="465" vertical-scroll-proportion="0.0">
@@ -635,35 +677,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SimpleEvent.as">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="13" selection-start="650" selection-end="650" vertical-scroll-proportion="0.0">
+        <state line="19" column="25" selection-start="457" selection-end="457" vertical-scroll-proportion="0.47990814">
           <folding>
             <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SimpleCommand.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SimpleView.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="21" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#162#190#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SimpleModel.as">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="8" selection-start="574" selection-end="574" vertical-scroll-proportion="0.42532006">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="e#161#197#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -11,8 +11,8 @@ import flash.events.IEventDispatcher;
 
 public class SimpleModel extends EventDispatcher {
 
-    private var _x:uint;
-    private var _y:uint;
+    private var _x:int;
+    private var _y:int;
 
     public function get x():uint {
         return _x;
@@ -21,10 +21,10 @@ public class SimpleModel extends EventDispatcher {
     public function set x(value:uint):void {
         _x = value;
         trace('model new x:'+value);
-        var simpleEvent = new SimpleEvent(SimpleEvent.MOVING);
-        simpleEvent.y = y;
-        simpleEvent.x = x;
-        dispatchEvent(simpleEvent);
+        //var simpleEvent = new SimpleEvent(SimpleEvent.MOVING);
+        //simpleEvent.y = y;
+        //simpleEvent.x = x;
+        //dispatchEvent(simpleEvent);
     }
 
     public function get y():uint {
